@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+PREVIOUSLY CALLED COLLEGE DOCUMENT RAG, CHANGED DOMAIN
+
 # Production RAG
 
 Question answering over your PDFs with hybrid retrieval, cross-encoder reranking, grounded answers with citations, and an evaluation suite that measures all of it.
