@@ -9,19 +9,26 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.141.1",
+    "fastembed>=0.8.1",
     "inngest>=0.5.19",
     "llama-index-core>=0.14.25",
     "llama-index-readers-file>=0.7.0",
     "openai>=3.17.0",
+    "psycopg-pool>=3.3.3",
+    "psycopg[binary]>=3.3.6",
+    "pypdf>=6.19.0",
     "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
     "qdrant-client>=1.19.1",
     "streamlit>=1.64.0",
     "uvicorn>=0.53.0",
 ]
 
-[project.scripts]
-rag-production-app-test = "rag_production_app_test:main"
-
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

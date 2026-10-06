@@ -9,3 +9,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local data
+qdrant_storage/
+qdrant_local/
+uploads/
+data/
+.pytest_cache/
